@@ -27,13 +27,24 @@ class Program
         {
             Console.WriteLine("Tu es majeur");
         }
-        // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre décimal)
+        // Etape 4 : demandez maintenant à l'utilisateur combien d'euro il a (nombre entier)
         
         Console.WriteLine("Quel est ton budget");
         float budget = Convert.ToInt32(Console.ReadLine());
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prixca
         
+        Console.Write("Hache de la mort qui tue ");
+        Console.WriteLine("Prix : 100");
+        
+        Console.Write("couteau qui décoiffe ");
+        Console.WriteLine("Prix : 30");
+        
+        Console.Write("Pistolet trop Swag ");
+        Console.WriteLine("Prix : 10");
+        
+        Console.Write("Les poings archi puissants ");
+        Console.WriteLine("Prix : 50");
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
 
