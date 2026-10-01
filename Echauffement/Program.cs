@@ -123,7 +123,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("L'achat n'a pas été possible : vous n'avez pas assez d'argent ou vous êtes mineur.");
+            Console.WriteLine("Vous n'avez pas assez d'argent ou l'age pour l'achat.");
         }
 
         // Lorsque l'utilisateur respecte ces demandes, retirez le prix de l'arme de l'argent de l'utilisateur, puis confirmez à l'utilisateur que l'action a été effectuée 
